@@ -7,25 +7,27 @@ Submit Date: 9/6/2022
 Overview: 
 This Python program reads two data files and joins them together. The resulting joined data is written to a JSON file.
 
-User Instructions:
-main.py - execute the top-level application in the root directory
-ExecuteTests.py - run Unit and Integration tests to validate application functionality, exists in the /TestFiles/ subfolder
-
-Recommended Python Version:
-Python 3.10
-
 External Package Requirements:
 Pandas
 PyArrow
 
+User Instructions:
+Please ensure you have the required External Dependencies installed above.
+
+To execute the top-level program, please run 'py main.py' in your terminal window after setting your current directory to the root project folder.
+
+To execute the test-suite for unit and integration tests, please run 'py ExecuteTests.py' in your terminal window after setting your current directory to the root project folder.
+
+Recommended Python Version:
+Python 3.10
 
 File Structure:
-1) Root Directory - contains main.py script, Dockerfile for containerization, and all required subfolders
+1) Root Directory - contains main.py and ExecuteTests.py sscripts, Dockerfile for containerization, and all required subfolders
 2) DataFiles - subfolder containing source data files (CSV and parquet)
 3) Modules - subfolder containing python modules imported by main.py
 4) OutputFiles - subfolder where resulting JSON file is written
 5) ReadMe - subfolder containing the ReadMe
-6) TestFiles - subfolder containing all required files and scripts for running Unit and Integration Tests
+6) TestFiles - subfolder containing all required files for running Unit and Integration Tests
 
 
 Open Items:
